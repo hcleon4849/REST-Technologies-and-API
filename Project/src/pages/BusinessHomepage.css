@@ -1,0 +1,162 @@
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #4e92cd;
+    box-shadow: 0 4px 2px -2px gray;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.navbar li a:hover {
+    background-color: #bfddf0;
+    color: black;
+}
+.business-homepage {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .welcome-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  
+  .welcome-image {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .welcome-text {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  .welcome-text h1 {
+    margin: 0;
+    font-size: 2em;
+  }
+  
+  .welcome-text p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+
+  .home-row {
+    display: flex;
+  }
+  
+  .home-column {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+   
+    
+  }
+  
+  .home-column h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .home-column p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .home-image {
+    display: block;
+    margin: 0 auto 20px auto;
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+  .home-welcome {
+    align-items: center; 
+    padding: 20px;
+  
+   
+}
+.home-welcome h2 {
+  font-size: 2.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+.home-welcome p {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #666;
+}
+
+
+
+
+.footer {
+    background-color: #f0f0f0;
+    padding: 20px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    box-shadow: 0px -1px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    .footer-content {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+    
+    .footer p {
+      font-size: 14px;
+      color: #666;
+    }
+    
+    .footer-links {
+      margin-top: 10px;
+    }
+    
+    .footer-links a {
+      margin: 0 10px;
+      color: #333;
+      text-decoration: none;
+    }
+    
+    .footer-links a:hover {
+      text-decoration: underline;
+      color: #555;
+    }
+    
